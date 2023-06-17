@@ -1,9 +1,4 @@
-l1 = int(input("Valor do primeiro Lado:"))
-l2 = int(input("Valor do segundo lado:"))
-l3 = int(input("Valor do terceiro lado"))
-if l1 == l2 == l3 :
-    print(" Esse é um Triângulo    Equilátero")
-elif l1 == l2 != l3 or l1 != l2 == l3  :
-    print("Esse é um Triângulo    Isóscele")
-else :
-    print("Esse é um Triângulo    Escaleno")
+a = float(input("Quantos dias foi usado o carro?"))
+km = float(input("Quantos kilometros rodados?"))
+calculo = float((a*60) + (km*0.65))
+print("O valor do aluguel do carro ficou {:.2f}".format(calculo))
